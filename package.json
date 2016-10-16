@@ -6,9 +6,6 @@
   "scripts": {
     "start": "node index.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/turingschool-examples/get-user-media.git"
@@ -18,7 +15,7 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "express-cors": "0.0.3",
+    "express-cors": "0.0.3"
   },
   "devDependencies": {
     "nodemon": "^1.3.7"
