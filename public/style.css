@@ -1,0 +1,43 @@
+body {
+  font-family: 'Helvetica Neue';
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+#container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#container section {
+  flex-basis: 40%;
+}
+
+#container video {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  font-size: 12px;
+  font-weight: 700;
+  background-color: rgba(70, 136, 169, 0.85);
+  border: rgba(0, 0, 0, 0.5);
+  padding: 5px 15px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 5px 5px 0px 0px;
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(70, 136, 169, 1);
+}
