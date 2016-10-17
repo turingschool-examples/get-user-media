@@ -4,10 +4,25 @@
     <title>getUserMedia API</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" /> 
   </head>
   <body>
-    <h1>getUserMedia</h1>
+    <h1>Recording with getUserMedia</h1>
+    <div id="container">
+      <section>
+        <h2>Live Stream</h2>
+        <video id="live-stream" autoplay muted></video>
+        <div id="recording-buttons">
+          <button id="record">Start Recording</button>
+          <button id="play" disabled>Display Recording</button>
+        </div>
+      </section>
 
+      <section>
+        <h2>Recording</h2>
+        <video id="recorded" autoplay loop controls></video>
+      </section>
+    </div>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script src="script.js"></script>
   </body>
