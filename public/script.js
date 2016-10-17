@@ -1,6 +1,9 @@
 // Setting some global variables we'll access throughout the code
 let recorder, recordedBlobs, currentMediaStream;
 
+// Storing a jQuery reference to the elements we'll be working
+// with throughout the code. Remember when setting a video src
+// attribute, the jQuery syntax is $(elem).attr('src', value);
 let $liveStreamVideo = $('video#live-stream');
 let $recordedVideo = $('video#recorded');
 
